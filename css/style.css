@@ -693,13 +693,12 @@ li.dropdown-submenu i {
 
 /*2.2 Hero Area*/
 .hero-area {
-    background: rgba(0, 0, 0, 0) url(../img/bg/bg-1.jpg) repeat scroll 0 0;
     overflow: hidden;
-    background-position: center center;
+    background: rgba(0, 0, 0, 0) url(../img/Homepage/slider/1.jpg) repeat scroll center center;
     background-size: cover;
     padding: 84px 0 0;
     position: relative;
-    /* height: 100vh; */
+     height: 100vh;
 }
 .hero-area::before {
     background: rgba(0, 0, 0, .5) repeat scroll 0 0;
@@ -983,7 +982,7 @@ li.dropdown-submenu i {
 /*2.4 Counter Area*/
 
 .pfsh-counter-area{
-    background: rgba(0, 0, 0, 0) url(../img/bg/bg-counter.jpg) no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url(../img/Homepage/Facts/1.jpg) no-repeat fixed center center / cover;
     margin: 50px auto;
     
     
