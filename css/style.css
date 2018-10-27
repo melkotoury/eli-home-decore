@@ -266,7 +266,7 @@ blockquote {
 
 blockquote::before {
     color: #4e5665;
-    content: "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â";
+    content: "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â";
     font-family: FontAwesome;
     font-size: 36px;
     left: 20px;
@@ -2665,7 +2665,7 @@ button.button {}
 
 .team3-title h2 {
     font-size: 36px;
-    color: #faad83;
+    color: #61c0bd;
     margin: 25px 0px;
     font-weight: 300;
     text-transform: uppercase;
@@ -2675,7 +2675,7 @@ button.button {}
 .team3-title span {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 82px;
-    color: #faad83;
+    color: #61c0bd;
     font-weight: 300;
 }
 
@@ -2708,7 +2708,7 @@ button.button {}
 .team3-author-info h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #faad83;
+    color: #61c0bd;
 }
 
 .team3-author-info p {
@@ -3938,7 +3938,7 @@ h4.bs-cat-title {
 
 .aud-title h4 {
     font-size: 18px;
-    color: #faad83;
+    color: #61c0bd;
     font-weight: 400;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -3955,7 +3955,7 @@ h4.bs-cat-title {
 .aud-title h4:after {
     content: '';
     position: absolute;
-    background-color: #faad83;
+    background-color: #61c0bd;
     height: 2px;
     width: 120px;
     top: 50px;
@@ -3970,7 +3970,7 @@ h4.bs-cat-title {
 .aud-text p:before {
     content: '';
     position: absolute;
-    background: #faad83;
+    background: #61c0bd;
     height: 2px;
     width: 90px;
     top: 40px;
@@ -3995,7 +3995,7 @@ h4.bs-cat-title {
 .about-us-details-section .single-figure:after {
     content: '';
     position: absolute;
-    background-color: #faad83;
+    background-color: #61c0bd;
     height: 80%;
     width: 2px;
     right: 0;
@@ -4007,11 +4007,10 @@ h4.bs-cat-title {
 }
 
 .our-story-strategy-area {
-    background: url(../img/bg/progrs-bg.jpg) repeat scroll 0 0;
     padding: 100px 0px;
 }
-.oss-right h3 {
-    color: #faad83;
+.oss-right h1 {
+    color: #61c0bd;
     font-weight: 300;
 }
 .oss-right p {
