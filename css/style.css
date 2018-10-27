@@ -266,7 +266,7 @@ blockquote {
 
 blockquote::before {
     color: #4e5665;
-    content: "ÃƒÂ¯Ã¢â‚¬Å¾Ã‚Â";
+    content: "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â";
     font-family: FontAwesome;
     font-size: 36px;
     left: 20px;
@@ -3882,14 +3882,15 @@ h4.bs-cat-title {
 /*-------Blog-Details-CSS END--------*/
 
 
-/*  9. About-Us 
+/*  9. About-Us
 /*----------------------------------------*/
 .all-cpage-top-section {
-    background: rgba(0, 0, 0, 0) url(../img/bg/ap-cs-bg.jpg) repeat scroll 0 0;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0) url(../img/Servicepage/1.jpg) repeat scroll center center;
+    background-size: cover;
     padding: 84px 0 0;
     position: relative;
-    /* height: 100vh; */
+    height: 100vh;
 }
 .all-cpage-stitle {
     margin: 120px 0px 100px;
@@ -3908,7 +3909,7 @@ h4.bs-cat-title {
 .all-cpage-stitle h3 {
     font-size: 48px;
     line-height: 55px;
-    color: #f9ad81;
+    color: #61c0bd;
     font-weight: 300;
     transition: 0.5s ease;
 }
@@ -4074,7 +4075,7 @@ span.progressText {
     display: inline-block;
     margin-right: 15px;
     transform: rotate(25deg);
-    color: #faad81;
+    color: #61c0bd;
 }
 
 .services-main {
@@ -4156,6 +4157,7 @@ span.progressText {
 }
 .service-faq-area {
 
+    margin-bottom: 16px;
 }
 .faq-left {}
 .fl-title {}
@@ -4217,7 +4219,7 @@ span.progressText {
 .fr-img img {}
 
 .service-subscribe-area {
-    background: rgba(0, 0, 0, 0) url(../img/bg/service-subscribe-bg.jpg) no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url(../img/Servicepage/4.jpg) no-repeat fixed center center / cover;
 
     position: relative;
 }
@@ -4246,12 +4248,20 @@ span.progressText {
 
 .ssa-form {
     margin: 25px auto 80px;
-    max-width: 750px;
+    max-width: 300px;
 
+}
+.ssa-form button {
+    margin: 0 auto;
+    width: 100%;
+}
+.ssa-form .btn-brand {
+    background-color: #61c0bd;
+    color: #ffffff;
 }
 .ssa-form .input-group {
     position: relative;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 .ssa-form .input-group label {
