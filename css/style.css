@@ -3976,7 +3976,14 @@ h4.bs-cat-title {
     top: 40px;
     left: 25px;
 }
-
+.all-aboutpage-top-section{
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0) url(../img/Aboutpage/1.jpg) repeat scroll center center;
+    background-size: cover;
+    padding: 84px 0 0;
+    position: relative;
+    /*height: 100vh;*/
+}
 .about-us-details-section .single-figure h2 span {
     font-family: 'Josefin Sans';
     color: #000000;
@@ -4007,15 +4014,31 @@ h4.bs-cat-title {
 }
 
 .our-story-strategy-area {
-    padding: 100px 0px;
+    background: rgba(0, 0, 0, 0) url(../img/Aboutpage/3.jpg) no-repeat fixed center center / cover;
+    overflow: hidden;
+
+    /*padding: 84px 0 0;*/
+    /*position: relative;*/
+    height: 60vh;
 }
+.our-story-text {
+    height: 60vh;
+}
+
+
 .oss-right h1 {
     color: #61c0bd;
     font-weight: 300;
 }
 .oss-right p {
-    color: #c7c7c7;
-    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+    padding: 10px 0px;
+    margin: 0px auto;
+    font-weight: 400;
+    /*color: #c7c7c7;*/
+    /*font-size: 13px;*/
 }
 span.progressText {
     color: #ffffff;
